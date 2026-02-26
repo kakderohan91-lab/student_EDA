@@ -1,135 +1,62 @@
-📊 Student Performance EDA (Internship Project)
+# 📊 Student Performance EDA
 
-This project carries out Exploratory Data Analysis (EDA) on a student performance dataset that is publicly accessible.
-The aim is to examine patterns that influence academic achievement through statistical methods and visual representations.
+This project is part of my **Data Science Internship**, where I performed Exploratory Data Analysis (EDA) on a student performance dataset using Python.
 
-This project was carried out during my Data Science Internship (Project 1).
+---
 
-🎯 Objective
+## 🔍 About the Project
 
-Gain insight into student performance trends
+In this project, I analyzed student data to understand what factors affect academic performance.
+The goal was to practice real-world data analysis using Python and visualization tools.
 
-Prepare and clean the raw data
+---
 
-Conduct statistical analysis
+## 🛠 Tools Used
 
-Display distributions and correlations
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
-Derive valuable conclusions
+---
 
-🛠 Tools & Technologies
+## 📂 Dataset
 
-Python
+* UCI Student Performance Dataset
+* File: `student-mat.csv`
+* Includes data like study time, absences, family background, and grades.
 
-Pandas
+---
 
-NumPy
+## 📊 What I Did
 
-Matplotlib
+* Loaded and explored the dataset
+* Cleaned the data
+* Performed exploratory data analysis (EDA)
+* Created visualizations to find patterns
+* Exported cleaned dataset
 
-Seaborn
+---
 
-Jupyter Notebook
+## 📈 Key Insights
 
-📁 Dataset
+* More study time → better performance
+* Higher absences → lower grades
+* Strong correlation between internal and final marks
 
-Dataset: Student Performance Dataset
+---
 
-File: student-mat.csv
+## 📁 Project Files
 
-Includes academic, social, and lifestyle characteristics of students
+* `Student EDA1.ipynb` — Main notebook
+* `student-mat.csv` — Raw data
+* `cleaned_student_data1.xls` — Cleaned dataset
 
-Target variable:
+---
 
-G3 → Final Grade
+## 👨‍💻 Author
 
-🔍 Steps Performed
-
-1️⃣ Data Loading
-
-Loaded the dataset using Pandas
-
-Examined the structure and dimensions
-
-2️⃣ Data Cleaning
-
-Checked for missing entries
-
-Eliminated duplicates
-
-Confirmed data types
-
-3️⃣ Statistical Analysis
-
-Produced summary statistics
-
-Examined the distribution of final grades
-
-Recognized important numeric features
-
-4️⃣ Data Visualization
-
-Histogram of final grades
-
-Boxplot of performance by gender
-
-Analysis of the impact of study time
-
-Correlation heatmap
-
-Pairplot showing grade relationships
-
-5️⃣ Feature Relationships
-
-Analyzed correlations with the final grade (G3)
-
-Determined strong and weak predictors
-
-Predictors
-
-📊 Key Insights
-
-Earlier grades (G1, G2) are strong indicators of final performance.
-
-Students who have more absences usually achieve lower scores.
-
-The amount of time spent studying has a moderate positive effect on performance.
-
-Lifestyle factors have a minimal impact on academic results.
-
-The majority of students perform at an average level.
-
-📦 Output
-
-The cleaned dataset has been exported as:
-
-cleaned_student_data.csv
-
-Visual insights were created using Matplotlib and Seaborn.
-
-📌 Learning Outcomes
-
-Practical experience with real-world exploratory data analysis (EDA) processes.
-
-Data cleaning and preparation techniques.
-
-Best practices for data visualization.
-
-Extracting meaningful insights from raw data.
-
-👨‍💻 Author
-
-Rohan Kakde  
-Data Science Intern
-
-⭐ Future Improvements
-
-Develop a predictive model (Regression)
-
-Conduct feature engineering
-
-Evaluate and deploy the model
-
-Create a dashboard using Streamlit or Power BI
-
-If you found this project  
+**Rohan Kakde**
+Data Science Intern | Aspiring Data Analyst
